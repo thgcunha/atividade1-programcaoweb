@@ -41,25 +41,25 @@ footer p + p { margin-top: 0.5rem; }
 footer a { color: #fff; }
 footer a:hover { text-decoration: underline; }
 
-/* Login: mantém o rodapé na base da janela */
-.login-page {
+/* Páginas de conta: mantém o rodapé na base da janela */
+.account-page {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.login-page main {
+.account-page main {
   flex: 1;
   display: grid;
   place-items: center;
 }
 
-.login-page form {
+.account-page form {
   width: min(480px, calc(100% - 2rem));
   margin: 1rem auto;
 }
 
-.login-page footer {
+.account-page footer {
   margin-top: 0;
 }
 
@@ -80,6 +80,15 @@ legend {
   font-weight: 600;
   margin-bottom: 1rem;
   color: var(--primary);
+}
+
+.form-link {
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.form-help {
+  margin-bottom: 1rem;
 }
 
 label { display: block; margin-bottom: 0.5rem; font-weight: 500; }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recuperação de senha do Sistema RFID.">
+  <title>Recuperar senha | Sistema RFID</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="account-page">
+  <header>
+    <h1>Sistema RFID</h1>
+  </header>
+
+  <main>
+    <form action="/recuperar-senha" method="post">
+      <fieldset>
+        <legend>Recuperar senha</legend>
+        <p class="form-help">Informe o e-mail da sua conta.</p>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+
+        <button type="submit">Solicitar recuperação</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p><a href="login.html">Voltar ao login</a></p>
+  </footer>
+</body>
+</html>
