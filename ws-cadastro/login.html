@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de acesso ao Sistema RFID.">
+  <title>Login | Sistema RFID</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sistema RFID</h1>
+  </header>
+
+  <main>
+    <form action="/login" method="post">
+      <fieldset>
+        <legend>Login</legend>
+        
+        <label for="usuario">Usuário ou Email</label>
+        <input type="text" id="usuario" name="usuario" autocomplete="username" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" autocomplete="current-password" required>
+
+        <button type="submit">Entrar</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>Não tem conta? <a href="cadastro.html">Cadastrar-se</a></p>
+  </footer>
+</body>
+</html>
