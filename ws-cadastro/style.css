@@ -41,6 +41,28 @@ footer p + p { margin-top: 0.5rem; }
 footer a { color: #fff; }
 footer a:hover { text-decoration: underline; }
 
+/* Login: mantém o rodapé na base da janela */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page main {
+  flex: 1;
+  display: grid;
+  place-items: center;
+}
+
+.login-page form {
+  width: min(480px, calc(100% - 2rem));
+  margin: 1rem auto;
+}
+
+.login-page footer {
+  margin-top: 0;
+}
+
 /* Formulário */
 form {
   max-width: 480px;
